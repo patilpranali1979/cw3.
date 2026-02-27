@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video{
+            height: auto;
+            width: 100%;
+        }
+        .v1{
+            display: block;
+        }
+        .v2{
+            display: none;
+        }
+        @media(orientation: portrait){
+            video{
+                height: 500px;
+                width: 100%;
+            }
+            .v1{
+                display:none
+
+            }
+            .v2{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <video class="v1" src="v1.mp4" muted loop autoplay></video>
+    <video class="v2" src="https://pixabay.com/videos/grass-field-wind-flowers-nature-203923/" muted loop autoplay></video>
+</body>
+</html>

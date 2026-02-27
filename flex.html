@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1{
+            background-color: gray;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+
+        .container2{
+            background-color: gray;
+            display: flex;
+            flex-direction: row-reverse;
+            padding: 10px;
+        }
+
+        .container3{
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .container4{
+            background-color: gray;
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 10px;
+        }
+
+        .container5{
+            background-color: gray;
+            display: flex;
+            justify-content: flex-start;
+            padding: 10px;
+        }
+
+        .container6{
+            background-color: gray;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+        }
+
+        .container7{
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .container8{
+            background-color: gray;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .container9{
+            background-color: gray;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+
+        .container10{
+            background-color: gray;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+
+        .container11{
+            background-color: gray;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            height: 200px;
+        }
+
+        .container12{
+            background-color: gray;
+            display: flex;
+            align-items: flex-start;
+            padding: 10px;
+            height: 200px;
+        }
+        
+        .container13{
+            background-color: gray;
+            display: flex;
+            align-items: flex-end;
+            padding: 10px;
+            height: 200px;
+        }
+        
+        .container14{
+            background-color: gray;
+            display: flex;
+            align-items: stretch;
+            padding: 10px;
+            height: 200px;
+        }
+
+        .container15{
+            background-color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+        .container16{
+            background-color: gray;
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 10px;
+        }
+
+        .container17{
+            background-color: gray;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            padding: 10px;
+        }
+
+        .container18{
+            background-color: gray;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+
+        .container19{
+            background-color: gray;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+
+
+        
+        
+
+    </style>
+</head>
+<body>
+    <h1>flex direction Row</h1>
+    <div class="container1">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>flex direction row reverse </h1>
+    <div class="container2">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>flex direction column</h1>
+    <div class="container3">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>flex direction column reverse</h1>
+    <div class="container4">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+     <h1>justify content start</h1>
+    <div class="container5">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+     <h1>justify content end</h1>
+    <div class="container6">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+     <h1>justify content center</h1>
+    <div class="container7">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+     <h1>justify content space between</h1>
+    <div class="container8">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+     <h1>justify content space around</h1>
+    <div class="container9">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+     <h1>justify content space evenly</h1>
+    <div class="container10">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>align items center</h1>
+    <div class="container11">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>align items start</h1>
+    <div class="container12">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>align items end</h1>
+    <div class="container13">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>align items stretch</h1>
+    <div class="container14">
+        <div class="item1" style="background-color: blueviolet;  width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow;  width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua;  width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>flex wrap </h1>
+    <div class="container15">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>flex no wrap </h1>
+    <div class="container16">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+    <h1>flex wrp reverse </h1>
+    <div class="container17">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;">box 4</div>
+    </div>
+
+     <h1> order</h1>
+    <div class="container12">
+        <div class="item1" style="background-color: blueviolet; height: 70px; width: 70px; margin: 3px; order: 2;">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px; width: 70px; margin: 3px; order: 3;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px; width: 70px; margin: 3px;order: 4;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px; width: 70px; margin: 3px;order: 1;">box 4</div>
+    </div>
+
+    <h1> grow</h1>
+    <div class="container12">
+        <div class="item1" style="background-color: blueviolet; height: 70px; margin: 3px; flex-grow: 1; ">box 1</div>
+        <div class="item2" style="background-color: red; height: 70px;  margin: 3px; flex-grow: 1;">box 2</div>
+        <div class="item3" style="background-color:greenyellow; height: 70px;  margin: 3px;">box 3</div>       
+        <div class="item4" style="background-color: aqua; height: 70px;  margin: 3px;">box 4</div>
+    </div>
+
+
+    
+</body>
+</html>
